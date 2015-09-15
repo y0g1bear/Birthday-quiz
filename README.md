@@ -52,12 +52,14 @@ Years prior to 1980 are known as the ```Stone Age```.
 
 ## Useful Tips
 
-You will find it useful to import a couple of libraries related to dates: import the ```today```
+You will find it useful to import a couple of libraries related to dates: import the ```datetime```
 function from ```datetime``` and the ```month_name``` name from ```calendar```.
 
 Then you can get today's month (as a number) and date using:
 
 ```python
+from datetime import datetime
+from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 ```
