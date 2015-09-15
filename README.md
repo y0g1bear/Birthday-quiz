@@ -22,6 +22,16 @@ Otherwise respond with a statement like this:
 
 ```Peter, you are a winter baby of the nineties.```
 
+## Example Session
+
+So a typical session would look like this (remember: details matter!)
+
+```Hello, what is your name? Eric
+Hi Eric, what was the name of the month you were born in? September
+And what year were you born in, Eric? 1972
+And the day? 11
+Eric, you are a fall baby of the stone age.```
+
 ## Some Definitions
 
 Winter (```winter```) babies were born in months of December through February.
@@ -40,3 +50,20 @@ Years from 2000 through today are known as the ```two thousands```.
 
 Years prior to 1980 are known as the ```Stone Age```.
 
+## Useful Tips
+
+You will find it useful to import a couple of libraries related to dates: import the ```today```
+function from ```datetime``` and the ```month_name``` name from ```calendar```.
+
+Then you can get today's month (as a number) and date using:
+
+```python
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+```
+
+And you can get the name of a month from its number using something like:
+
+```python
+month = month_name[todaymonth]
+```
