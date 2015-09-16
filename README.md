@@ -1,4 +1,4 @@
-# Birthday Quiz
+# Birthday Problem
 
 The purpose of this challenge is to continue practicing with input and output, converting to integers,
 and in particular with writing programs that use *conditionals* to make decisions.
