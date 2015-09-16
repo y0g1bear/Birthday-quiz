@@ -8,4 +8,10 @@ git init
 git pull https://${GH_REPO}
 cd ..
 
+# hope we hit three distinct cases in random testing!
+python tests/test.py ${TESTMODULE}
+python tests/test.py ${TESTMODULE}
+python tests/test.py ${TESTMODULE}
+python tests/test.py ${TESTMODULE}
+python tests/test.py ${TESTMODULE}
 python tests/test.py ${TESTMODULE}
