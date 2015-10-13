@@ -30,7 +30,7 @@ So a typical session would look like this (remember: details matter!)
     Hi Eric, what was the name of the month you were born in? September
     And what year were you born in, Eric? 1972
     And the day? 11
-    Eric, you are a fall baby of the stone age.
+    Eric, you are a fall baby of the Stone Age.
 
 ## Some Definitions
 
