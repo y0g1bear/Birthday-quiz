@@ -34,8 +34,11 @@ Example Session
 name = input( " Hello ,what is your name?")
 born = input(" Hi, " + name + ", what was the name of the month you were born in?")
 year = int(input( " And what year were you born in, " + name + "?" ))
-day = input("And the day?")
-if year > 2000:
-    print(name + " you are young")
-else:
-    print(name + " you are cool")
+day = int(input("And the day?"))
+if day == 31 and born == "october":
+    print("You are born on holloween")
+if year > 2016 and born = october and day = 4:
+    print("Happy birthday!")
+if year > 1980 and year <1989
+    print(
+    
