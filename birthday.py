@@ -1,7 +1,7 @@
 """
 birthday.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: John Warhold
+Credit: 
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -33,7 +33,9 @@ Example Session
 """
 name = input( " Hello ,what is your name?")
 born = input(" Hi, " + name + ", what was the name of the month you were born in?")
-year = input( " And what year were you born in, " + name + "?" )
+year = int(input( " And what year were you born in, " + name + "?" ))
 day = input("And the day?")
-if year >2000
-print(name + "you are yong")
+if year > 2000:
+    print(name + " you are young")
+else:
+    print(name + " you are cool")
