@@ -32,7 +32,7 @@ Example Session
   Eric, you are a fall baby of the stone age.
 """
 name = input( " Hello ,what is your name?")
-born = input(" Hi, " + name + ", what was the name of the month you were born in?")
+born = input(" Hi " + name + ", what was the name of the month you were born in?")
 year = int(input( " And what year were you born in, " + name + "? " ))
 day = int(input("And the day? "))
 if day == 31 and born == "october":
