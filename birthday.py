@@ -33,8 +33,8 @@ Example Session
 """
 name = input( " Hello ,what is your name?")
 born = input(" Hi, " + name + ", what was the name of the month you were born in?")
-year = int(input( " And what year were you born in, " + name + "?" ))
-day = int(input("And the day?"))
+year = int(input( " And what year were you born in, " + name + "? " ))
+day = int(input("And the day? "))
 if day == 31 and born == "october":
     print("You are born on holloween")
 if born == "october" and day == 4:
