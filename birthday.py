@@ -31,6 +31,11 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+from datetime import datetime
+from calendar import month_name
+todayborn = datetime.today().month
+todayday = datetime.today().day
+
 name = input( "Hello, what is your name?")
 born = input(" Hi " + name + ", what was the name of the month you were born in?")
 year = int(input( " And what year were you born in, " + name + "? " ))
@@ -38,7 +43,7 @@ day = int(input("And the day? "))
 
 if day == 31 and born == "October":
     print("You are born on holloween")
-if born == "October" and day == 4:
+if born == todayborn and day == todayday:
     print("Happy birthday!")
 if year > 1980 and year <1989:
     deca = "eighties" 
