@@ -35,9 +35,9 @@ name = input( "Hello, what is your name?")
 born = input(" Hi " + name + ", what was the name of the month you were born in?")
 year = int(input( " And what year were you born in, " + name + "? " ))
 day = int(input("And the day? "))
-if day == 31 and born == "october":
+if day == 31 and born == "October":
     print("You are born on holloween")
-if born == "october" and day == 4:
+if born == "October" and day == 4:
     print("Happy birthday!")
 if year > 1980 and year <1989:
     print("you were born in the eighties")
@@ -45,13 +45,13 @@ if year > 1990 and year <1999:
     print("you were born in the nineties") 
 if year <1980:
     print("you were born in the stone age")
-if born == "december" or born == "january" or born == "february":
+if born == "December" or born == "January" or born == "February":
     print("you were born in the winter")
-if born == "march" or born == "april" or born == "may":
+if born == "March" or born == "April" or born == "May":
     print("you were born in the spring")
-if born == "june" or born == "july" or born == "august":
+if born == "June" or born == "July" or born == "August":
     print("you were born in the summer")
-if born == "september" or born == "october" or born == "november":
+if born == "September" or born == "October" or born == "November":
     print("you were born in the fall")
     
     
