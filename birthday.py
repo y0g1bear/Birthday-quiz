@@ -47,21 +47,21 @@ if day == 31 and born == "October":
 if born == todayborn and day == todayday:
     print("Happy birthday!")
 else:
-    if year > 1980 and year <1989:
-    deca = "eighties" 
+    if year > 1980 and year <= 1989:
+        deca = "eighties" 
     if year > 1990 and year <= 1999:
-    deca = "nineties" 
+        deca = "nineties" 
     if year <1980:
-    deca = "stoneage"
+        deca = "stoneage"
     if year > 2000:
-    deca = "two thousands"
+        deca = "two thousands"
     if born == "December" or born == "January" or born == "February":
-    print(name + ", you are a winter baby of the " + deca)
+        print(name + ", you are a winter baby of the " + deca)
     if born == "March" or born == "April" or born == "May":
-    print(name +", you are a spring baby of the " + deca)
+        print(name +", you are a spring baby of the " + deca)
     if born == "June" or born == "July" or born == "August":
-    print(name + ", you are a summer baby of the " + deca)
+        print(name + ", you are a summer baby of the " + deca)
     if born == "September" or born == "October" or born == "November":
-    print(name + ", you are a fall baby of the " + deca)
+        print(name + ", you are a fall baby of the " + deca)
     
     
