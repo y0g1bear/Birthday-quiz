@@ -46,6 +46,7 @@ if day == 31 and born == "October":
 
 if born == todayborn and day == todayday:
     print("Happy birthday!")
+    else:
 if year > 1980 and year <1989:
     deca = "eighties" 
 if year > 1990 and year <= 1999:
