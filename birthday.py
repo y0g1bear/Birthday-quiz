@@ -42,7 +42,7 @@ year = int(input( " And what year were you born in, " + name + "? " ))
 day = int(input("And the day? "))
 
 if day == 31 and born == "October":
-    print("You are born on holloween")
+    print("You are born on Halloween")
 if born == todayborn and day == todayday:
     print("Happy birthday!")
 if year > 1980 and year <1989:
