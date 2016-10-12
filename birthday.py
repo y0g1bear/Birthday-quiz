@@ -49,13 +49,13 @@ else:
         print("Happy birthday!")
     else:
             if year > 1980 and year <= 1989:
-                deca = "eighties" 
+                deca = "eighties." 
             if year > 1990 and year <= 1999:
-                 deca = "nineties" 
+                 deca = "nineties." 
             if year <1980:
-                deca = "Stone Age"
+                deca = "Stone Age."
             if year > 2000:
-                deca = "two thousands"
+                deca = "two thousands."
             if born == "December" or born == "January" or born == "February":
                 print(name + ", you are a winter baby of the " + deca)
             if born == "March" or born == "April" or born == "May":
