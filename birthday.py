@@ -53,7 +53,7 @@ else:
             if year > 1990 and year <= 1999:
                  deca = "nineties" 
             if year <1980:
-                deca = "stoneage"
+                deca = "Stone Age"
             if year > 2000:
                 deca = "two thousands"
             if born == "December" or born == "January" or born == "February":
